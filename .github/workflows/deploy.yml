@@ -22,4 +22,4 @@ jobs:
           sf org login sfdx-url --sfdx-url-file auth.txt --alias myOrg
 
       - name: Deploy to Salesforce
-        run: sf project deploy start --target-org myOrg
+        run: sf project deploy start --target-org myOrg       
